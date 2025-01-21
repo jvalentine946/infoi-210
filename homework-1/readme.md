@@ -10,7 +10,7 @@ Visual studio code is an integrated development environment that we will be usin
 
 ## Version Control, Git, & GitHub
 
-Github and Git have similar names, but different functions. Git is used for version control, as it keeps track of changes you make in your code. Github acts as a store spot for your files/code.
+Github and Git have similar names, but different functions. Git is used for version control, as it keeps track of changes you make in your code. Github acts as a storage spot for your files/code.
 
 ## Markdown & Documentation
 
