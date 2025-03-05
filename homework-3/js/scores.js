@@ -9,4 +9,5 @@ for (let i = 0; i < scores.length; i++) {
   console.log(score);
 
   scoresUlRef.innerHTML += "<li>" + score + "</li>";
+
 }
