@@ -1,3 +1,4 @@
+const instrumentsUlRef = document.querySelector("#instruments");
 
 const instruments = [
   "Piano",
@@ -8,8 +9,12 @@ const instruments = [
   "Flute",
 ];
 
+console.table(instruments);
 
 for (let i = 0; i < instruments.length; i++) {
-  const instruments = instruments[i];
-  ulRef.innerHTML += "<li class='item' >" + Lessons + "</li>";
+  const instrument = instruments[i];
+  console.log(instrument);
+
+  instrumentsUlRef.innerHTML += "<li>" + instrument + "</li>";
 }
+
