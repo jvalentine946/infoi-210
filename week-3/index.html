@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 3</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="moreforms.html">More Forms</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h1>Containers and Forms</h1>
+
+    <form
+      action="https://wp.zybooks.com/form-viewer.php"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <div>
+        <label for="fullName">Full name:</label>
+        <input
+          type="text"
+          name="fullName"
+          id="fullName"
+          placeholder="Peeps"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="leastFavoriteSnack">Least Favorite Snack:</label>
+        <input
+          type="text"
+          name="leastFavoriteSnack"
+          id="leastFavoriteSnack"
+          value="Harry Potter Jellybeans"
+        />
+      </div>
+
+      <div>
+        <label for="explain">Explain Your Choices:</label>
+        <textarea name="explain" id="explain" cols="50" rows="10"></textarea>
+      </div>
+
+      <div>
+        <label for="snackColorMood">Snack Color Mood:</label>
+        <input type="color" name="snackColorMood" id="snackColorMood" />
+      </div>
+
+      <div>
+        <label for="snackPic">Picture of Snacks:</label>
+        <input type="file" accept="image/*" />
+      </div>
+
+      <input type="submit" value="Submit Snacks" />
+      <button type="submit">It's the same thing</button>
+    </form>
+  </body>
+</html>
