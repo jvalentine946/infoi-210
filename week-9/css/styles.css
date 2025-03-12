@@ -1,0 +1,76 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+nav {
+    border-bottom: 0.5px outset black;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 20px;
+}
+
+nav ul li a img {
+    height: 108px;
+    width: 108px;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    border-bottom: 1px solid red;
+}
+
+nav ul li a.logo {
+    padding-bottom: 0;
+}
+
+.promotion img {
+    width: 400px;
+    height: 300px;
+}
+
+.promotion {
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+
+.promotion {
+    display: flex;
+    gap: 20px;
+}
+
+.promotion div {
+    width: 400px;
+}
+
+#menu article {
+    display: grid;
+    gap: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+#menu article img {
+    height: 200px;
+    width: 200px;
+}
