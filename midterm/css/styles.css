@@ -76,6 +76,10 @@ h2 {
   gap: 20px;
 }
 
+.promotion img {
+  margin-left: 10px;
+}
+
 .promotion p {
     margin-bottom: 20px;
 }
@@ -94,6 +98,10 @@ h2 {
     margin-right: 100px;
     margin-left: 20px;
     margin-top: 40px;
+}
+
+.products h2 {
+  margin-left: 20px;
 }
 
 .about {
