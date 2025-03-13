@@ -2,4 +2,4 @@
 
 ### Live Link
 
-[Home](https://jvalentine946.github.io/infoi-210/tree/main/midterm)
+[Home](https://jvalentine946.github.io/infoi-210/midterm/)
