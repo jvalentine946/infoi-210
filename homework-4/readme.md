@@ -10,4 +10,4 @@ I found this assignment difficult but eventually came to understand what I neede
 
 ### Live Link
 
-[Blog Page](https://jvalentine946.github.io/infoi-210/homework-4)
+[Blog Page]https://github.com/jvalentine946/infoi-210/tree/main/homework-4
