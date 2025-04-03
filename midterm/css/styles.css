@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  padding: 10px;
+  background-color: gray;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  gap: 40px;
+  list-style: none;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a.active {
+  text-decoration: underline;
+}
+
+.about h1 {
+  margin-top: 30px;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.promotion img {
+  width: 400px;
+  height: 300px;
+}
+
+.promotion button {
+    height: 40px;
+    width: 160px;
+}
+
+.promotion {
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+
+.promotion {
+  display: flex;
+  gap: 20px;
+}
+
+.promotion img {
+  margin-left: 10px;
+}
+
+.promotion p {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.products button {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 180px;
+    height: 40px;
+    width: 160px;
+}
+
+.products img {
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.products h2 {
+  margin-left: 20px;
+}
+
+.about {
+    margin-left: 20px;
+}
+
+.events {
+    margin-left: 20px;
+}
+
+.event h2 {
+    margin-bottom: 20px;
+}
+
+.events img {
+    width: 300px;
+    height: 200px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.dates {
+    justify-content: flex-start;
+    display: flex;
+}
+
+.dates h4 {
+    width: 300px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.day p {
+    width: 300px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+.day {
+    justify-content: flex-start;
+    display: flex;
+}
+
+#catalog {
+  display: grid;
+  justify-content: flex-start;
+  gap: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+#catalog img {
+  height: 200px;
+  width: 200px;
+}
+
+.catalog {
+  margin-left: 20px;
+  margin-bottom: 60px;
+}
